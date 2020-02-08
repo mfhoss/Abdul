@@ -26,6 +26,7 @@ pipeline {
                 sh 'echo "Test Hello World!"'
                 sh 'pwd'
                 sh 'free -m'
+                sh 'df -h'
             }
         }
     }
